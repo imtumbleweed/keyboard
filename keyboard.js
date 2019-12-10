@@ -4,6 +4,19 @@ export let activate_keyboard_shortcuts = () => {
     // Map variables representing keys to ASCII codes
     const [ A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z ] = Array.from({ length: 26 }, (v, i) => 65 + i);
 
+    const _0 = 48;
+    const _1 = 49;
+    const _2 = 50;
+    const _3 = 51;
+    const _4 = 52;
+    const _5 = 53;
+    const _6 = 54;
+    const _7 = 55;
+    const _8 = 56;
+    const _9 = 57;
+    const minus = 189;
+    const plus = 187;
+
     const Delete = 46;
     const Shift = 16;
     const Ctrl = 17;
