@@ -17,6 +17,8 @@ export let activate_keyboard_shortcuts = () => {
     const minus = 189;
     const plus = 187;
 
+    const Escape = 27;
+
     const Delete = 46;
     const Shift = 16;
     const Ctrl = 17;
